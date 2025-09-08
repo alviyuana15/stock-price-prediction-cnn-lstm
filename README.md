@@ -1,3 +1,25 @@
+# Stock Price Prediction and Risk Analysis
+
+This project implements a **Hybrid CNN-LSTM model** for stock price forecasting and the **VaR-ECF method** for risk estimation.  
+It provides an interactive web-based dashboard built with Flask (backend) and Svelte (frontend).
+
+## Features
+- Upload stock dataset (CSV)
+- Predict stock prices (Open, High, Low, Close)
+- Estimate Value at Risk (VaR) using Cornish-Fisher Expansion
+- Visualize predictions and risks with interactive charts
+
+## Tech Stack
+- Python, TensorFlow, Pandas, Numpy, Flask
+- Svelte, Vite
+- PostgreSQL (for data storage)
+
+## Installation
+Clone this repository:
+```bash
+git clone https://github.com/alviyuana15/stock-price-prediction-cnn-lstm.git
+cd stock-price-prediction-cnn-lstm
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
